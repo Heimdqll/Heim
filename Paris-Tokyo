@@ -1,0 +1,18 @@
+H=int(input("Veuiller saisir l'heure actuelle de Paris."))
+M=int(input("Veuiller saisir les minutes actuelles de Paris."))
+   if H>23:
+   print(" Veuiller choisir un nombres d'heures correcte sois entre 0 inclu et 24 exclu.")
+   H=int(input("Veuiller saisir l'heure actuelle de Paris."))     
+   else:
+   H=H
+   if M>59:
+   print(" Veuiller choisir un nombres de minutes correcte sois entre 0 inclu et 60 exclu.")
+   M=int(input("Veuiller saisir les minutes actuelles de Paris."))
+   else:
+   M=M  
+HT=H+7
+   if HT>23:
+   HT= HT-24
+   else:
+   HT=HT
+print(" Il est actuellement ",HT," heures et ",MT," minutes à Tokyo.")
